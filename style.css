@@ -70,7 +70,12 @@ button{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-
+@media (max-width:1030px){
+    textarea,.output{
+        width: 70%;
+        margin:.5rem 0;
+    }
+}
 
 @media (max-width:600px){
     h2{
@@ -82,5 +87,15 @@ button{
     textarea,.output{
         width: 70%;
         margin:.5rem 0;
+    }
+}
+
+@media (max-width:500px){
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .text{
+        font-size: 1rem;
     }
 }

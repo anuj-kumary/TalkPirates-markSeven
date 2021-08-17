@@ -18,6 +18,7 @@ let translate = () => {
     .then(json =>{
        output.innerText = json.contents.translated
     })
+    .catch(errorHandler())
 }
 
 btnTranslate.addEventListener('click',translate)
